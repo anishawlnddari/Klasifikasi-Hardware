@@ -1,3 +1,7 @@
+## Nama : Anisha Wulandari Pono
+## NIM : 202110370311438
+## Kelas : Machine Learning A
+
 # Klasifikasi-Hardware
 Projek klasifikasi ini merupakan Tugas Ujian Akhir Praktikum Mata Kuliah Machine Learning
 
