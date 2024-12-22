@@ -215,5 +215,49 @@ Hasil Perbandingan Model Menggunakan CNN dan MobileNet
 ![(https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/14f8f2d5ecc4e274fc817c3a331333e83f31b822/download%20(2).png)]
 
 2. MobileNet
-- Accuracy pada Data Test : 0.9138
-- Loss pada Data Test : 0.4339
+- Accuracy pada Data Test : 0.9032
+- Loss pada Data Test : 0.5952
+
+### Classification Report Pada Data Test
+| Class         | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| Cables        | 0.87      | 0.82   | 0.85     | 80      |
+| Case          | 0.83      | 0.90   | 0.86     | 79      |
+| CPU           | 0.93      | 0.89   | 0.91     | 79      |
+| GPU           | 0.93      | 0.89   | 0.91     | 79      |
+| HDD           | 0.90      | 0.95   | 0.93     | 79      |
+| Headset       | 0.88      | 0.89   | 0.88     | 79      |
+| Keyboard      | 0.90      | 0.95   | 0.93     | 79      |
+| Microphone    | 0.89      | 0.86   | 0.88     | 78      |
+| Monitor       | 0.93      | 0.90   | 0.92     | 79      |
+| Motherboard   | 0.90      | 0.92   | 0.91     | 79      |
+| Mouse         | 0.90      | 0.92   | 0.91     | 79      |
+| RAM           | 0.94      | 0.92   | 0.93     | 78      |
+| Speakers      | 0.88      | 0.91   | 0.89     | 79      |
+| Webcam        | 0.97      | 0.92   | 0.95     | 79      |
+| **Accuracy**  |           |        | 0.90     | 1105    |
+| **Macro Avg** | 0.90      | 0.90   | 0.90     | 1105    |
+| **Weighted Avg** | 0.90   | 0.90   | 0.90     | 1105    |
+
+### Classification Report Pada Data Validasi
+| Class         | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| Cables        | 0.80      | 0.81   | 0.81     | 158     |
+| Case          | 0.82      | 0.89   | 0.86     | 156     |
+| CPU           | 0.94      | 0.88   | 0.91     | 157     |
+| GPU           | 0.91      | 0.94   | 0.93     | 157     |
+| HDD           | 0.90      | 0.91   | 0.90     | 158     |
+| Headset       | 0.92      | 0.92   | 0.92     | 157     |
+| Keyboard      | 0.88      | 0.88   | 0.88     | 156     |
+| Microphone    | 0.90      | 0.92   | 0.91     | 156     |
+| Monitor       | 0.93      | 0.91   | 0.92     | 157     |
+| Motherboard   | 0.86      | 0.87   | 0.86     | 157     |
+| Mouse         | 0.93      | 0.94   | 0.93     | 157     |
+| RAM           | 0.93      | 0.88   | 0.91     | 156     |
+| Speakers      | 0.95      | 0.93   | 0.94     | 157     |
+| Webcam        | 0.97      | 0.94   | 0.95     | 156     |
+| **Accuracy**  |           |        | 0.90     | 2195    |
+| **Macro Avg** | 0.90      | 0.90   | 0.90     | 2195    |
+| **Weighted Avg** | 0.90   | 0.90   | 0.90     | 2195    |
+
+![(https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/51c55a26f1b40e26507e0aa82209c7ef89ed5eb6/download.png]
