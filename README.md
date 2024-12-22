@@ -282,3 +282,14 @@ Hasil Perbandingan Model Menggunakan CNN dan MobileNet
 | **Weighted Avg** | 0.90   | 0.90   | 0.90     | 2195    |
 
 ![](https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/51c55a26f1b40e26507e0aa82209c7ef89ed5eb6/download.png)
+
+
+## Tampilan Web Deployment
+### Tampilan Awal
+![](https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/2893e0131aa345cc23e69f9c60796071e3f65abe/Tampilan%20Web.jpg)
+
+### Masukan Inputan Citra 
+![](https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/2893e0131aa345cc23e69f9c60796071e3f65abe/Tampilan%20Web%202.jpg)
+
+### Hasil Prediksi
+![](https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/2893e0131aa345cc23e69f9c60796071e3f65abe/Tampilan%20Web%203.jpg)
