@@ -6,6 +6,27 @@ Projek klasifikasi ini merupakan Tugas Ujian Akhir Praktikum Mata Kuliah Machine
 ### Deskripsi Proyek
 Proyek ini berfokus pada pengembangan sistem berbasis machine learning untuk mengklasifikasikan jenis perangkat keras. Sistem ini dirancang untuk mengenali berbagai jenis hardware dengan menganalisis karakteristik visual seperti bentuk, ukuran, dan komponen yang terlihat, sehingga dapat dikelompokan dalam kategori perangkat keras yang sesuai. 
 
+Dataset yang digunakan pada proyek ini merupakan dataset Komponen Hardware Komputer yang diambil dari Kaggle, Dataset berjumlah 3.279 Citra. yang terdiri dari beberapa kelas yaitu
+- cables 
+- case               
+- cpu              
+- gpu                
+- hdd           
+- headset         
+- keyboard         
+- microphone            
+- monitor       
+- motherboard             
+- mouse               
+- ram          
+- speakers            
+- webcam 
+
+Link Dataset : https://www.kaggle.com/datasets/gauravduttakiit/hardware-visual-dataset 
+
+### Augmentasi 
+Dataset setelah dilakukan augmentasi menjadi 10975 Citra.
+
 
 ### Latar Belakang 
 Kemajuan teknologi telah meningkatkan kebutuhan akan sistem pintar yang mampu mendukung pengelolaan data secara efektif, termasuk dalam mengenali dan mengklasifikasikan berbagai jenis hardware komputer. Komponen seperti motherboard, proseor, RAM, hard drive, karti gratis, dan lainnya memiliki ciri visual yang khas, namun sering kali sulit dibedakan secara manual oleh pengguna yang kurang berpengalaman. 
@@ -212,7 +233,7 @@ Hasil Perbandingan Model Menggunakan CNN dan MobileNet
 | **Macro Avg** | 0.82      | 0.80   | 0.81     | 2196    |
 | **Weighted Avg** | 0.82   | 0.80   | 0.81     | 2196    |
 
-![(https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/14f8f2d5ecc4e274fc817c3a331333e83f31b822/download%20(2).png)]
+![](https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/14f8f2d5ecc4e274fc817c3a331333e83f31b822/download%20(2).png)
 
 2. MobileNet
 - Accuracy pada Data Test : 0.9032
@@ -260,4 +281,4 @@ Hasil Perbandingan Model Menggunakan CNN dan MobileNet
 | **Macro Avg** | 0.90      | 0.90   | 0.90     | 2195    |
 | **Weighted Avg** | 0.90   | 0.90   | 0.90     | 2195    |
 
-![(https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/51c55a26f1b40e26507e0aa82209c7ef89ed5eb6/download.png]
+![](https://github.com/anishawlnddari/Klasifikasi-Hardware/blob/51c55a26f1b40e26507e0aa82209c7ef89ed5eb6/download.png)
